@@ -3,8 +3,6 @@
 import { useState, useEffect } from "react";
 
 export default function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const [isAtDetails, setIsAtDetails] = useState(false);
 
   // Sync arrow with scroll position
@@ -58,7 +56,6 @@ export default function App() {
               and growth.
             </p>
             <button
-              onClick={() => setIsModalOpen(true)}
               className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-8 rounded-xl shadow transition text-lg"
             >
                 <a href="#details">

@@ -1,5 +1,5 @@
 "use client";
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -12,14 +12,11 @@ const InteractiveHoverButton = React.forwardRef<
   HTMLButtonElement,
   InteractiveHoverButtonProps
 >(({ text = "Be Part of the Future", className, ...props }, ref) => {
-   const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
-      const form = e.currentTarget;
-      const formData = new FormData(form);
-      // You can handle form submission here, e.g., send formData to an API
       setIsSubmitted(true);
     };
 

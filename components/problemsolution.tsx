@@ -2,6 +2,7 @@
 import React from "react";
 import { Spotlight } from "@/components/ui/spotlight-new";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import Image from "next/image";
 
 export function ProblemSolution() {
   return (
@@ -26,7 +27,7 @@ export function ProblemSolution() {
             </div>
 
             <CardItem translateZ="100" className="w-full mt-4 flex justify-center">
-              <img
+              <Image
                 src="/problem.png"
                 height="1000"
                 width="1000"
@@ -55,7 +56,7 @@ export function ProblemSolution() {
             </div>
 
             <CardItem translateZ="100" className="w-full mt-4 flex justify-center">
-              <img
+              <Image
                 src="/healthy.png"
                 height="1000"
                 width="1000"

@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "@/components/ui/sparkles"
-import { LiquidButton } from "./liquid-glass-button";
 import { InteractiveHoverButton } from "./ui/interactive-hover-button";
 
 export function SparklesPreview() {
@@ -81,13 +80,6 @@ export function SparklesPreviewColorful() {
          <div className="relative justify-center">
             <InteractiveHoverButton />
          </div>
-      </div>
-
-      {/* layered overlay to smooth merge with the next section */}
-      <div className="absolute bottom-[-9rem] left-0 w-full h-56 pointer-events-none z-30">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/90 opacity-95" />
-        <div className="absolute inset-0 backdrop-blur-3xl opacity-60" />
-        <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent_10%,black_85%)]" />
       </div>
     </div>
   );

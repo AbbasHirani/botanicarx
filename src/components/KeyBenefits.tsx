@@ -49,6 +49,17 @@ export default function KeyBenefits() {
           ))}
         </div>
       </div>
+      {/* layered overlay: gradient + backdrop blur + mask for smoother transition */}
+      <div className="absolute bottom-[-9rem] left-0 w-full h-56 pointer-events-none z-30">
+        {/* soft gradient to darken progressively */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/90 opacity-95" />
+
+        {/* backdrop blur layer to smooth pixels underneath */}
+        <div className="absolute inset-0 backdrop-blur-3xl opacity-30" />
+
+        {/* mask to feather the top of the overlay so the transition is smoother */}
+        <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent_10%,black_85%)]" />
+      </div>
     </section>
   );
 }

@@ -1,8 +1,9 @@
 import Image from "next/image";
 import LandingSection from "../../components/herosection";
 import { ProblemSolution } from "../../components/problemsolution";
-import { Key } from "lucide-react";
+import { Key, Sparkle } from "lucide-react";
 import KeyBenefits from "@/components/KeyBenefits";
+import { SparklesPreview , SparklesPreviewColorful, SparklesPreviewDark} from "@/components/Teaser";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <LandingSection />
       <ProblemSolution  />
       <KeyBenefits />
+      <SparklesPreviewColorful />
     </>
   );
 }

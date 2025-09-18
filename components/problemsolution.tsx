@@ -5,10 +5,12 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 export function ProblemSolution() {
   return (
-    <div className="h-full w-full flex flex-col items-center justify-start bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div
+    id="details" 
+    className="h-full w-full flex flex-col items-center justify-start bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight />
       <h1 className="relative z-20 text-3xl md:text-5xl font-extrabold text-white dark:text-white text-center mt-40 mb-0">
-        The Problem & Solution
+        The Problem We’re Here to Solve
       </h1>
       <div className="relative z-10 w-full max-w-7xl  grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 p-2 md:p-8 mb-20 mt-0">
         {/* Problem Card */}

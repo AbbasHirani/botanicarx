@@ -18,7 +18,8 @@ export default function LandingSection() {
         </p>
         <a
           href="#explore"
-          className="inline-block bg-green-600 hover:bg-green-700 focus:bg-green-800 text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full shadow-lg transition-all duration-200 text-base sm:text-lg ring-green-400/50 focus:ring-4 hover:scale-105 "
+          className="inline-block bg-gradient-to-r from-green-500 via-lime-500 to-emerald-600 hover:from-emerald-600 hover:to-green-500 focus:from-green-700 focus:to-emerald-700 text-white font-bold py-2 sm:py-3 px-8 sm:px-10 rounded-full shadow-xl transition-all duration-300 text-base sm:text-lg ring-4 ring-green-400/40 focus:ring-8 hover:scale-110 hover:shadow-2xl focus:outline-none focus:ring-green-300 animate-pulse"
+          style={{ boxShadow: "0 4px 24px 0 rgba(34,197,94,0.25)" }}
         >
           Explore Now
         </a>

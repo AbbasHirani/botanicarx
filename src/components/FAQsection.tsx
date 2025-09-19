@@ -6,13 +6,13 @@ export default function FAQsTwo() {
     const faqItems = [
         {
             id: 'item-1',
-            question: 'What exactly is this gel?',
-            answer: 'It’s a breakthrough agricultural solution made from 100% natural ingredients. Designed to protect plants from stress and failure, the gel helps crops grow stronger, survive harsh conditions, and deliver better yields.',
+            question: 'What exactly is this product?',
+            answer: 'It’s a breakthrough agricultural product made from 100% natural ingredients. Designed to shield plants from stress and failure, it helps crops grow stronger, withstand harsh conditions, and deliver better yields.',
         },
         {
             id: 'item-2',
             question: 'Is it safe for all crops?',
-            answer: 'Yes. The gel is being developed to be eco-friendly, residue-free, and compatible with a wide range of crops — from grains to vegetables to fruit farms.',
+            answer: 'Yes. The product is being developed to be eco-friendly, residue-free, and compatible with a wide range of crops — from grains to vegetables to fruit farms.',
         },
         {
             id: 'item-3',
@@ -22,7 +22,7 @@ export default function FAQsTwo() {
         {
             id: 'item-4',
             question: 'When will it be available?',
-            answer: "The gel is currently under development and will be launched soon. You can join the waitlist today to be the first to know when it’s ready.",
+            answer: "The product is currently under development and will be launched soon. You can join the waitlist today to be the first to know when it’s ready.",
         },
         {
             id: 'item-5',

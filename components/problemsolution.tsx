@@ -67,8 +67,8 @@ export function ProblemSolution() {
 
             <div className="w-full mt-6">
               <CardItem as="p" translateZ="60" className="text-neutral-700 text-md max-w-md mt-2 mb-4 dark:text-neutral-300 text-center">
-                A 100% natural gel that acts as a shield for plants—helping them survive, thrive, and deliver higher yields even in tough conditions.
-                With this breakthrough, farmers don’t just protect their crops. They protect their income, their future, and their communities.
+              A 100% natural shield for crops—helping plants heal, stay resilient, and deliver stronger harvests even in tough conditions.
+              With this breakthrough, farmers don’t just safeguard their fields. They secure their income, their future, and their communities.
               </CardItem>
             </div>
           </CardBody>
